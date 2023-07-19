@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn about classic design patterns." />
+    <meta
+      name="keywords"
+      content="Design Patterns, Creational, Structural, Behavioral, Software Development, Development Patterns"
+    />
+    <meta name="author" content="Patryk" />
+    <title>Classic Design Patterns</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Test page</h1>
+      <nav>
+        <!-- Your navigation links here -->
+      </nav>
+    </header>
+
+    <main>
+      <h2>Classic Design Patterns</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Pattern Name</th>
+            <th>Category</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Creational Design Patterns -->
+          <tr class="creational">
+            <td>Abstract Factory</td>
+            <td>Creational</td>
+            <td>
+              Provide an interface for creating families of related or dependent objects without specifying their
+              concrete classes.
+            </td>
+          </tr>
+          <tr class="creational">
+            <td>Builder</td>
+            <td>Creational</td>
+            <td>
+              Separate the construction of a complex object from its representation, allowing the same construction
+              process to create various representations.
+            </td>
+          </tr>
+          <tr class="creational">
+            <td>Factory Method</td>
+            <td>Creational</td>
+            <td>Define an interface for creating objects, but let subclasses decide which class to instantiate.</td>
+          </tr>
+          <tr class="creational">
+            <td>Prototype</td>
+            <td>Creational</td>
+            <td>
+              Specify the kinds of objects to create using a prototypical instance, and create new objects by copying
+              this prototype.
+            </td>
+          </tr>
+          <tr class="creational">
+            <td>Singleton</td>
+            <td>Creational</td>
+            <td>Ensure a class has only one instance and provide a global point of access to it.</td>
+          </tr>
+
+          <!-- Structural Design Patterns -->
+          <tr class="structural">
+            <td>Adapter</td>
+            <td>Structural</td>
+            <td>
+              Convert the interface of a class into another interface clients expect, allowing classes with incompatible
+              interfaces to work together.
+            </td>
+          </tr>
+          <tr class="structural">
+            <td>Bridge</td>
+            <td>Structural</td>
+            <td>Decouple an abstraction from its implementation, allowing both to vary independently.</td>
+          </tr>
+          <tr class="structural">
+            <td>Composite</td>
+            <td>Structural</td>
+            <td>
+              Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat
+              individual objects and compositions of objects uniformly.
+            </td>
+          </tr>
+          <tr class="structural">
+            <td>Decorator</td>
+            <td>Structural</td>
+            <td>
+              Attach additional responsibilities to an object dynamically, providing a flexible alternative to
+              subclassing for extending functionality.
+            </td>
+          </tr>
+          <tr class="structural">
+            <td>Facade</td>
+            <td>Structural</td>
+            <td>
+              Provide a unified interface to a set of interfaces in a subsystem, simplifying interactions and reducing
+              dependencies.
+            </td>
+          </tr>
+          <tr class="structural">
+            <td>Flyweight</td>
+            <td>Structural</td>
+            <td>Use sharing to support large numbers of fine-grained objects efficiently.</td>
+          </tr>
+          <tr class="structural">
+            <td>Proxy</td>
+            <td>Structural</td>
+            <td>Provide a surrogate or placeholder for another object to control access to it.</td>
+          </tr>
+
+          <!-- Behavioral Design Patterns -->
+          <tr class="behavioral">
+            <td>Chain of Responsibility</td>
+            <td>Behavioral</td>
+            <td>
+              Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle
+              the request. Chain the receiving objects and pass the request along the chain until an object handles it.
+            </td>
+          </tr>
+          <tr class="behavioral">
+            <td>Command</td>
+            <td>Behavioral</td>
+            <td>
+              Encapsulate a request as an object, thereby allowing for parameterization of clients with different
+              requests, queuing of requests, and logging of the requests.
+            </td>
+          </tr>
+          <tr class="behavioral">
+            <td>Interpreter</td>
+            <td>Behavioral</td>
+            <td>
+              Given a language, define a representation for its grammar along with an interpreter that uses the
+              representation to interpret sentences in the language.
+            </td>
+          </tr>
+          <tr class="behavioral">
+            <td>Iterator</td>
+            <td>Behavioral</td>
+            <td>
+              Provide a way to access the elements of an aggregate object sequentially without exposing its underlying
+              representation.
+            </td>
+          </tr>
+          <tr class="behavioral">
+            <td>Mediator</td>
+            <td>Behavioral</td>
+            <td>
+              Define an object that encapsulates how a set of objects interact, promoting loose coupling by keeping
+              objects from referring to each other explicitly.
+            </td>
+          </tr>
+          <tr class="behavioral">
+            <td>Memento</td>
+            <td>Behavioral</td>
+            <td>
+              Without violating encapsulation, capture and externalize an object's internal state, allowing the object
+              to be restored to this state later.
+            </td>
+          </tr>
+          <tr class="behavioral">
+            <td>Observer</td>
+            <td>Behavioral</td>
+            <td>
+              Define a one-to-many dependency between objects, so that when one object changes state, all its dependents
+              are notified and updated automatically.
+            </td>
+          </tr>
+          <tr class="behavioral">
+            <td>State</td>
+            <td>Behavioral</td>
+            <td>
+              Allow an object to alter its behavior when its internal state changes, and the object will appear to
+              change its class.
+            </td>
+          </tr>
+          <tr class="behavioral">
+            <td>Strategy</td>
+            <td>Behavioral</td>
+            <td>
+              Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the
+              algorithm vary independently from clients that use it.
+            </td>
+          </tr>
+          <tr class="behavioral">
+            <td>Template Method</td>
+            <td>Behavioral</td>
+            <td>
+              Define the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets
+              subclasses redefine certain steps of the algorithm without changing its structure.
+            </td>
+          </tr>
+          <tr class="behavioral">
+            <td>Visitor</td>
+            <td>Behavioral</td>
+            <td>
+              Represent an operation to be performed on the elements of an object structure. Visitor lets you define a
+              new operation without changing the classes of the elements on which it operates.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer>
+      <!-- Your footer content here -->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+}
+tr.creational {
+  background-color: #ffe6e6; /* Light pink */
+}
+
+tr.structural {
+  background-color: #e6f7ff; /* Light blue */
+}
+
+tr.behavioral {
+  background-color: #e6ffe6; /* Light green */
+}
