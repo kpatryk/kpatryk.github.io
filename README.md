@@ -1,1 +1,0 @@
-# kpatryk.github.io
