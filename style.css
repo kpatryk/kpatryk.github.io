@@ -5,27 +5,31 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+
 table {
   border-collapse: collapse;
   width: 100%;
 }
+
 th,
 td {
-  border: 1px solid #dddddd;
+  border: 2px solid #444;
   text-align: left;
   padding: 8px;
 }
+
 th {
   background-color: #f2f2f2;
 }
+
 tr.creational {
-  background-color: #ffe6e6; /* Light pink */
+  background-color: #ffcccc; /* Light pink */
 }
 
 tr.structural {
-  background-color: #e6f7ff; /* Light blue */
+  background-color: #cce6ff; /* Light blue */
 }
 
 tr.behavioral {
-  background-color: #e6ffe6; /* Light green */
+  background-color: #ccffcc; /* Light green */
 }
